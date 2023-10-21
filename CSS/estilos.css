@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
-    --main-color: #d3ad7f;
+    --btn: linear-gradient( to right, #0567FF, #00d9ff, #8f1ec0);
+    --main-color: #5be7ff;
     --black: #13131a;
     --bg: #13131a;
     --border: .1rem solid rgba(255, 255, 255, .3);
@@ -47,14 +48,37 @@ section {
     padding: 2rem 7%;
 }
 
+/* aqui estamos a mecher no doc sobre nos */
+.about{
+    padding-top: 10rem;
+}
+
+.heading{
+    
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+   
+    color: var(--main-color);
+    text-transform: uppercase;  
+}
+/* sobre nos acaba aqui */
+
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--main-color);
+    background: var(--btn);
     cursor: pointer;
+    border-radius: 8px;
+    
 }
 
 .btn:hover {
@@ -303,4 +327,24 @@ section {
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
 }
