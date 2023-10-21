@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --btn: linear-gradient( to right, #0569ff8e, #00d9ff, #ad5ad0);
+    --btn: linear-gradient( to right, #0567FF, #00d9ff, #8f1ec0);
     --main-color: #5be7ff;
     --black: #13131a;
     --bg: #13131a;
@@ -406,3 +406,79 @@ section {
     text-align: center;
 }
 
+
+/*---------------------------- media queries--------------------------------------------------- */
+@media(max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
+
+@media(max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(110vh - 9.5rem);
+    }
+
+    .header .navbar.active {
+        right: 0;
+    }
+
+    .header .navbar a {
+        color: var(--black);
+        display: block;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 2rem;
+    }
+
+    .header .search-form {
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+
+.home .content h3{
+    font-size: 4.5rem;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+}
+
+@media(max-width: 450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+}
+
+/* midiA */
