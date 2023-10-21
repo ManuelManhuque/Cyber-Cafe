@@ -27,3 +27,21 @@ window.onscroll = () => {
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
+
+// aqui comeca o comportamento do login
+const container = document.getElementById('container');
+
+const registerBtn = document.getElementById('register');
+
+const loginBtn = document.getElementById('login');
+
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
+// aqui termina o comportamento do login
