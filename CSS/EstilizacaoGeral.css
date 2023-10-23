@@ -335,34 +335,37 @@ section {
 .about .row{
     display: flex;
     align-items: center;
-    background: var(--black);
+    background:#20202a;
     flex-wrap: wrap;
 }
 
 .about .row .image{
-    flex: 1 1 45rem;
+    flex:1 1 45rem;
 }
 
 .about .row .image img{
-    width: 30%;
+    width: 100%;
+    height: 63vh;
 }
-
 .about .row .content{
-    flex: 1 1 45rem;
-    padding: 2rem;
+    flex:1 1 45rem;
+    padding:2rem;
+    
 }
 
 .about .row .content h3{
     font-size: 3rem;
-    color: #fff;
+    color:#fff;
 }
 
 .about .row .content p{
     font-size: 1.6rem;
-    color: #ccc;
-    padding: 1rem 0;
+    color:#ccc;
+    padding:1rem 0;
     line-height: 1.8;
 }
+
+
 /* -------------------------------ate aqui------------------------------------------------- */
 
 
@@ -481,3 +484,11 @@ section {
 
 
 /* ---------------------------------footer acaba-------------------------------------- */
+
+
+
+/* ---------------------------------organizacao do sobre nos inicio-------------------------------------- */
+
+
+
+/* ---------------------------------organizacao do sobre nos final-------------------------------------- */
