@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    
+
     <link rel="stylesheet" href="/CSS/login.css">
 
     <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
@@ -31,13 +31,12 @@
         <nav class="navbar" class="lin">
             <a href="/INTERFACES/Serviços.html">Serviços</a>
             <a href="#">Login</a>
-            <a href="/INTERFACES/Informações_Gerais.html">Informações Gerais</a>
             <a href="/INTERFACES/Contactos.html">Contactos</a>
             <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
         </nav>
 
         <div class="icons">
-            
+
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
 
@@ -56,53 +55,69 @@
     <div class="container" id="container">
         <div class="form-container sign-up">
             <form>
-                <h1>Create Account</h1>
-                <div class="social-icons">
+                <h1 class="a">Criar uma nova conta</h1>
+                <div class="social-icons" id="c">
                     <a href="#" class="icon"><i class="fa-regular fa-envelope"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-                <span>or use your email for registeration</span>
+                <span class="a">Ou utilize o seu Email e Palavra passe</span>
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button class="btn" >Sign Up</button>
+                <input type="password" placeholder="Palavra passe">
+                <button class="btn" class="a">Registrar</button>
             </form>
         </div>
         <div class="form-container sign-in">
             <form>
-                <h1>Sign In</h1>
+                <h1 class="a" >Entrar</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-regular fa-envelope"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-                <span>or use your email password</span>
+                <span class="a">Ou utilize o seu Email e Palavra passe</span>
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="#">Forget Your Password?</a>
-                <button class="btn">Sign In</button>
+                <input type="password" placeholder="Palavra passe">
+                <a href="#" id="c">Esqueceu a sua palavra Passe?</a>
+                <button class="btn" class="a">Entrar</button>
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login" class="btn">Sign In</button>
+                    <h1 style="font-weight: bold; color: #fff;">Seja bem Vindo(a) de volta!</h1>
+                    <p>Introduza o seus dados para que possa ter acesso a todas funcionalidades do Site</p>
+                    <button class="hidden" id="login" id="c">Entrar</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register" class="btn">Sign Up</button>
+                    <h1 class="a">Olá, Amigo(a)!</h1>
+                    <p>Faça o registro para que possa ter acesso a todas funcionalidades do Site</p>
+                    <button class="hidden" id="register" class="btn">Registrar</button>
                 </div>
             </div>
         </div>
     </div>
 
-   
+
+    <script>
+
+const container = document.getElementById('container');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login');
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
+
+    </script>
+
     <script src="/JS/comportamento.js"></script>
 </body>
 

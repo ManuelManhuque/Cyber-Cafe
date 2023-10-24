@@ -15,6 +15,11 @@
     text-decoration: none;
 }
 
+#c{
+    color: #fff;
+    font-weight: bold;
+}
+
 body{    
     background-color: #c9d6ff;
     background: linear-gradient(to right, #e2e2e2, #c9d6ff);
@@ -26,7 +31,7 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background-color:#20202a;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -76,13 +81,22 @@ body{
 }
 
 .container form{
-    background-color: #fff;
+    background-color: #20202a;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
     height: 100%;
+}
+
+.a{
+    color: #fff;
+    font-weight: bold;
+}
+
+a{
+    color:#fff
 }
 
 .container input{
@@ -143,7 +157,8 @@ body{
 }
 
 .social-icons a{
-    border: 1px solid #ccc;
+    color: #fff;
+    border: 1px solid #fff;
     border-radius: 20%;
     display: inline-flex;
     justify-content: center;
