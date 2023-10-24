@@ -29,6 +29,10 @@ h1{
 .div1{
     display: inline-block;
 }
+.div01{
+    display: inline-block;
+    padding: 0 0 0 75px;
+}
 
 .box2{
     padding: 10px;
