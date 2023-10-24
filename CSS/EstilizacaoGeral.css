@@ -26,6 +26,7 @@ html {
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
+
 }
 
 html::-webkit-scrollbar {
@@ -277,9 +278,12 @@ section {
     }
 
     .home{
-        background-position: left;
-        justify-content: center;
-        text-align: center;
+        height: 110vh;
+        display: flex;
+        align-items: center;
+        background:url(/ILUSTRACOES/2n.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
 }
@@ -306,10 +310,14 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('/ILUSTRACOES/coffee-3759024_1920.jpg');
+    /* background: url('/ILUSTRACOES/coffee-3759024_1920.jpg'); */
     background-size: cover;
     background-position: center;
+
+    
 }
+
+
 
 .home .content {
     max-width: 60rem;
@@ -544,4 +552,9 @@ section {
     padding:1rem 0;
 }
 
-/* ---------------------------------organizacao do servico nos final-------------------------------------- */
+/* ---------------------organizacao do servico nos final-------------------------------------- */
+
+/* Estilos padrão para o modo dia */
+
+  
+
