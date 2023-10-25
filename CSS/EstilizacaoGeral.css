@@ -322,10 +322,11 @@ section {
 
 /* --------------------------texto que aparece na main page ----------------------------------*/
 .home .content h3 {
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
     color: #fff;
 }
+
 
 
 .home .content p {
@@ -335,12 +336,23 @@ section {
     color: #fff;
 }
 
+.content{
+    padding-top: 12rem;
+}
+
+.row .image{
+    box-sizing: border-box;
+}
 /*--------------------------- uma parte do sobre nos esta aqui--------------------------------- */
 .about .row{
     display: flex;
     align-items: center;
     background:#20202a;
     flex-wrap: wrap;
+}
+
+.row .altura{
+    height: 40vh;
 }
 
 .about .row .image{
@@ -435,6 +447,7 @@ section {
 
 .footer .share{
     padding:1rem 0;
+    
 }
 
 .footer .share a{
