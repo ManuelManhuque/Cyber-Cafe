@@ -178,6 +178,12 @@ h4{
   color: #fff;
 }
 
+#nomedapag{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+}
+
 .search {
   position: relative;
   width: 400px;
