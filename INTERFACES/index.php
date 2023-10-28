@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="/../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/../ILUSTRACOES/logo.png" type="image/x-icon">
 
 </head>
 
@@ -23,14 +23,14 @@
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
         <a href="#" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+            <img src="/../ILUSTRACOES/logo.png">
         </a>
         <!-- <div id="menuToggle"> -->
         <nav class="navbar">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="/../INTERFACES/Serviços.html">Serviços</a>
+            <a href="/../INTERFACES/login.html">Login</a>
+            <a href="/../INTERFACES/Contactos.html">Contactos</a>
+            <a href="/../INTERFACES/sobre_nós.html">Sobre Nós</a>
             <!-- <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a> -->
         </nav>
 
@@ -48,7 +48,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="/../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -58,7 +58,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="/../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -68,14 +68,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="/../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="/../INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
 </div>
 
 
@@ -96,7 +96,7 @@
                 variedade de bebidas quentes e lanches para tornar a sua experiência ainda mais agradável. Seja para
                 trabalho, estudos ou simplesmente para navegar na web, estamos aqui para atender às suas necessidades de
                 conectividade. Visite-nos hoje e desfrute de uma experiência de Internet Café de alta qualidade</p>
-            <a href="/INTERFACES/sobre_nós.html" class="btn">Saiba mais!</a>
+            <a href="/../INTERFACES/sobre_nós.html" class="btn">Saiba mais!</a>
         </div>
     </section>
     <!-- home section ends -->
@@ -115,10 +115,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="/../INTERFACES/Serviços.html">Serviços</a>
+            <a href="/../INTERFACES/login.html">Login</a>
+            <a href="/../INTERFACES/Contactos.html">Contactos</a>
+            <a href="/../INTERFACES/sobre_nós.html">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>
@@ -131,7 +131,7 @@
     <!------------------------------- footer section ends ----------------------------------->
 
     <!-- link para o javascript -->
-    <script src="/JS/comportamento.js"></script>
+    <script src="JS/comportamento.js"></script>
 </body>
 
 </html>
