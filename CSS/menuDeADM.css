@@ -36,7 +36,7 @@ body {
   border-left: 10px solid #0567FF;
   transition: 0.5s;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 h4{
