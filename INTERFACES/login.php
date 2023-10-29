@@ -29,7 +29,7 @@
 
     <!-- link para a folha de estilizacao -->
 
-    <!-- <link rel="stylesheet" href="../CSS/login.css"> -->
+    <link rel="stylesheet" href="../CSS/login.css">
 
     <link rel="shortcut icon" href="../ILUSTRACOES/logo.png" type="image/x-icon">
 </head>
