@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Cafe: Lion's Gate</title>
-    <link rel="stylesheet" href="/CSS/cafeteria.css">
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../CSS/cafeteria.css">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -21,15 +21,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../../INTERFACES/index.php" class="logo">
+            <img src="../../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar" class="lin">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
 
         <div class="icons">
@@ -46,7 +46,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -56,7 +56,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -66,7 +66,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
@@ -89,45 +89,45 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-1.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-1.png" alt="">
                 <h3>Café Tunki</h3>
                 <div class="price">470MT <span>500MT</span></div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-2.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-2.png" alt="">
                 <h3>Macchiato</h3>
                 <div class="price">300MT <span>440MT</span></div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-3.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-3.png" alt="">
                 <h3>Mocha</h3>
                 <div class="price">550MT <span>500MT</span></div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-4.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-4.png" alt="">
                 <h3>Cappuccino</h3>
                 <div class="price">490MT <span>500MT</span></div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-5.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-5.png" alt="">
                 <h3>Café Americano</h3>
                 <div class="price">400MT</div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
             <div class="box">
-                <img src="/ILUSTRACOES/images/menu-6.png" alt="">
+                <img src="../../ILUSTRACOES/images/menu-6.png" alt="">
                 <h3>Café Com Leite</h3>
                 <div class="price">100MT</div>
-                <a href="/INTERFACES/service/pagamento.html" class="btn">Solicitar</a>
+                <a href="../../INTERFACES/service/pagamento.php" class="btn">Solicitar</a>
             </div>
 
         </div>
@@ -149,7 +149,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/ILUSTRACOES/images/product-1.png" alt="">
+                    <img src="../../ILUSTRACOES/images/product-1.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Café Nicaragua</h3>
@@ -171,7 +171,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/ILUSTRACOES/images/product-2.png" alt="">
+                    <img src="../../ILUSTRACOES/images/product-2.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Café Columbia</h3>
@@ -193,7 +193,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/ILUSTRACOES/images/product-3.png" alt="">
+                    <img src="../../ILUSTRACOES/images/product-3.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Café Peruiano</h3>
@@ -221,13 +221,13 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/quote-img.png" alt="" class="quote">
+                <img src="../../images/quote-img.png" alt="" class="quote">
                 <p>Amei a atmosfera aconchegante da cafeteria e o serviço amigável. O café foi delicioso e fresco, e o
                     bolo de chocolate era incrível! Definitivamente vou voltar.
                     Além disso, a música ambiente era perfeita para relaxar e trabalhar. Isso acrescentou um toque
                     especial à experiência.
                 </p>
-                <img src="/ILUSTRACOES/images/pic-3.png" class="user" alt="">
+                <img src="../../ILUSTRACOES/images/pic-3.png" class="user" alt="">
                 <h3>Ali Afzal</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -239,11 +239,11 @@
             </div>
 
             <div class="box">
-                <img src="images/quote-img.png" alt="" class="quote">
+                <img src="../../images/quote-img.png" alt="" class="quote">
                 <p>A cafeteria tem um ambiente ótimo para trabalhar ou relaxar. A variedade de opções de café é
                     impressionante, e o barista foi muito experiente ao me ajudar a escolher um café que combinasse com
                     o meu gosto. Minha única sugestão seria adicionar mais opções de lanches saudáveis.</p>
-                <img src="/ILUSTRACOES/images/pic-1.png" class="user" alt="">
+                <img src="../../ILUSTRACOES/images/pic-1.png" class="user" alt="">
                 <h3>Abu Bakkar</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -255,11 +255,11 @@
             </div>
 
             <div class="box">
-                <img src="images/quote-img.png" alt="" class="quote">
+                <img src="../../images/quote-img.png" alt="" class="quote">
                 <p>Esta cafeteria é um lugar maravilhoso para encontrar amigos. Os preços são razoáveis, o café é bom, e
                     a equipe é muito atenciosa. Eu gostaria que eles tivessem mais opções de leite não lácteo, mas, no
                     geral, tive uma ótima experiência.</p>
-                <img src="/ILUSTRACOES/images/pic-2.png" class="user" alt="">
+                <img src="../../ILUSTRACOES/images/pic-2.png" class="user" alt="">
                 <h3>M.Ramzan</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -289,10 +289,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>

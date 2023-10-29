@@ -75,7 +75,7 @@ section {
     height: 110vh;
     display: flex;
     align-items: center;
-    background:url(/ILUSTRACOES/mouse-7420220_1920.jpg) no-repeat;
+    background:url(../ILUSTRACOES/mouse-7420220_1920.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

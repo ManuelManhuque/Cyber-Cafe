@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="../../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
     <style>
         body {
             padding-top: 12vh;
@@ -29,15 +29,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../../INTERFACES/index.php" class="logo">
+            <img src="../../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
@@ -53,7 +53,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -63,7 +63,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -73,14 +73,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="../../INTERFACES/service/cafeteria.php" class="btn">Veja agora</a>
 </div>
 
 
@@ -98,7 +98,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/24x.jpg">
+                    <img src="../../ILUSTRACOES/24x.jpg">
                 </div>
 
 
@@ -115,7 +115,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/16x.jpg">
+                    <img src="../../ILUSTRACOES/16x.jpg">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Burn 16x:</b></a>
@@ -128,7 +128,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/12x.jpg">
+                    <img src="../../ILUSTRACOES/12x.jpg">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Burn 12x: </b></a>
@@ -142,7 +142,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/8x.jpg" alt="">
+                    <img src="../../ILUSTRACOES/8x.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Burn 8x: </b></a>
@@ -173,10 +173,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>
@@ -186,7 +186,7 @@
     <!------------------------------- footer section ends ----------------------------------->
 
 
-    <script src="/JS/comportamento.js"></script>
+    <script src="../JS/comportamento.js"></script>
 </body>
 
 </html>

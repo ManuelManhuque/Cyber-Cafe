@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
     <title>Cyber Cafe: Lion's Gate</title>
     <!-- ======= Styles ====== -->
-    <link rel="stylesheet" href="/CSS/menuDeADM.css">
+    <link rel="stylesheet" href="../../CSS/menuDeADM.css">
     <style>
         body {
             background-color: #13131a;
@@ -37,7 +37,7 @@
                 </li>
 
                 <li>
-                    <a href="/INTERFACES/ADM/MenudeADM.html">
+                    <a href="../INTERFACES/ADM/MenudeADM.php">
                         <span class="icon">
                             <ion-icon name="home-outline"></ion-icon>
                         </span>
@@ -46,7 +46,7 @@
                 </li>
 
                 <li>
-                    <a href="/INTERFACES/ADM/USUARIOS.html">
+                    <a href="../INTERFACES/ADM/USUARIOS.php">
                         <span class="icon">
                             <ion-icon name="people-outline"></ion-icon>
                         </span>
@@ -55,7 +55,7 @@
                 </li>
 
                 <li>
-                    <a href="/INTERFACES/ADM/PROD.html">
+                    <a href="../INTERFACES/ADM/PROD.php">
                         <span class="icon">
                             <ion-icon name="pencil-outline"></ion-icon>
                         </span>
@@ -104,7 +104,7 @@
             </div>
 
             <div class="user">
-                <img src="/ILUSTRACOES/customer02.jpg" alt="">
+                <img src="../ILUSTRACOES/customer02.jpg" alt="">
             </div>
         </div>
 
@@ -191,7 +191,7 @@
 
 
         <!-- =========== Scripts =========  -->
-        <script src="/JS/menudeadm.js"></script>
+        <script src="../JS/menudeadm.js"></script>
 
         <!-- ====== ionicons ======= -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../ILUSTRACOES/logo.png" type="image/x-icon">
     <style>
         body {
             padding-top: 12vh;
@@ -29,15 +29,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../INTERFACES/index.php" class="logo">
+            <img src="../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar">
             <a href="#">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../INTERFACES/login.php">Login</a>
+            <a href="../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
 
         <div class="icons">
@@ -54,7 +54,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -64,7 +64,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -74,14 +74,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="../INTERFACES/service/cafeteria.php" class="btn">Veja agora</a>
 </div>
 
 
@@ -102,7 +102,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/images/blog-3.jpeg" alt="">
+                    <img src="../ILUSTRACOES/images/blog-3.jpeg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Cafeteria: </b></a>
@@ -111,13 +111,13 @@
                         perfeito para desfrutar de momentos especiais e ótimas conversas. Explore nossa seleção de grãos
                         premium, saboreie deliciosos quitutes e deixe-se envolver pela magia do café. Sua jornada pelo
                         sabor começa aqui!</p>
-                    <a href="/INTERFACES/service/cafeteria.html" class="btn">Entrar</a>
+                    <a href="../INTERFACES/service/cafeteria.php" class="btn">Entrar</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/burn-3509504_1920.jpg" alt="">
+                    <img src="../ILUSTRACOES/burn-3509504_1920.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Burn Disk:</b></a>
@@ -125,13 +125,13 @@
                         tecnologia de ponta, garantimos a criação de CDs e DVDs personalizados, seja para distribuição
                         de conteúdo, arquivamento de dados ou projetos de mídia. Conte conosco para transformar suas
                         ideias em discos físicos de alta qualidade, com sempre resultados excepcionais.</p><br><br>
-                    <a href="/INTERFACES/service/discoqueimado.html" class="btn">Entrar</a>
+                    <a href="../INTERFACES/service/discoqueimado.php" class="btn">Entrar</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/machine-585262_1920.jpg" alt="">
+                    <img src="../ILUSTRACOES/machine-585262_1920.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>impressão:</b></a>
@@ -139,33 +139,33 @@
                         a projetos criativos, estamos prontos para transformar suas ideias em realidade.Imprimimos
                         documentos, relatórios, apresentações e muito mais com precisão e rapidez. Garantimos resultados
                         nítidos e profissionais para atender às suas necessidades de impressão.</p><br><br>
-                    <a href="/INTERFACES/service/impressao.html" class="btn">Entrar</a>
+                    <a href="../INTERFACES/service/impressao.php" class="btn">Entrar</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/google-485611_1920.jpg" alt="">
+                    <img src="../ILUSTRACOES/google-485611_1920.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Navegação:</b></a>
                     <p>Aqui, proporcionamos um ambiente moderno e acolhedor com conexão rápida à internet. Trabalhe,
                         estude ou relaxe em nosso espaço confortável, desfrutando de bebidas e lanches. Satisfazemos
                         suas necessidades de conectividade.</p>
-                    <a href="/INTERFACES/service/navegacao.html" class="btn">Entrar</a>
+                    <a href="../INTERFACES/service/navegacao.php" class="btn">Entrar</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/meeting-room-828547_1920.jpg" alt="">
+                    <img src="../ILUSTRACOES/meeting-room-828547_1920.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Salas de Conferencia:</b></a>
                     <p>Apresentamos nossas salas de conferência modernas e versáteis, com tecnologia de ponta e design
                         elegante, para reuniões de negócios e eventos especiais. Oferecemos opções personalizadas para
                         criar experiências memoráveis.</p>
-                    <a href="/INTERFACES/service/reservasSALAS.html" class="btn">Entrar</a>
+                    <a href="../INTERFACES/service/reservasSALAS.php" class="btn">Entrar</a>
                 </div>
             </div>
 
@@ -191,9 +191,9 @@
 
         <div class="links">
             <a href="#">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../INTERFACES/login.php">Login</a>
+            <a href="../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>
@@ -203,7 +203,7 @@
     <!------------------------------- footer section ends ----------------------------------->
 
 
-    <script src="/JS/comportamento.js"></script>
+    <script src="../JS/comportamento.js"></script>
 </body>
 
 </html>

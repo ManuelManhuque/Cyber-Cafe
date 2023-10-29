@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../ILUSTRACOES/logo.png" type="image/x-icon">
     <style>
         body {
             margin-top: 12vh;
@@ -29,15 +29,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../INTERFACES/index.php" class="logo">
+            <img src="../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
+            <a href="../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../INTERFACES/login.php">Login</a>
             <a href="#">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
 
         <div class="icons">
@@ -54,7 +54,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -64,7 +64,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -74,14 +74,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="../INTERFACES/service/cafeteria.php" class="btn">Veja agora</a>
 </div>
     </header>
     <!----------------------------- contacto comeca aqui-------------------------- -->
@@ -97,7 +97,7 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <form action="">
+            <form action="#">
                 <h3>Entre em Contacto connosco</h3>
                 <div class="inputBox">
                     <span class="fas fa-user"></span>
@@ -134,11 +134,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Informações_Gerais.html">Informações Gerais</a>
+            <a href="../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../INTERFACES/login.php">Login</a>
             <a href="#">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>

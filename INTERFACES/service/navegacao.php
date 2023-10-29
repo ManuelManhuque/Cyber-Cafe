@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="../../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
     <style>
         body {
             padding-top: 12vh;
@@ -29,15 +29,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../../INTERFACES/index.php" class="logo">
+            <img src="../../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
 
         <div class="icons">
@@ -54,7 +54,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -64,7 +64,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -74,14 +74,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="../../INTERFACES/service/cafeteria.php" class="btn">Veja agora</a>
 </div>
 
     </header>
@@ -98,7 +98,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/pc10.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/pc10.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Maquina 01: </b></a>
@@ -114,14 +114,14 @@
                         <b>Preço/Minuto: 10,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
 
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/portofolio pc.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/portofolio pc.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Maquina 02: </b></a>
@@ -137,12 +137,12 @@
                         <b>Preço/Minuto: 08,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/pc8.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/pc8.jpg" alt="">
                 </div>
 
 
@@ -160,12 +160,12 @@
                         <b>Preço/Minuto: 06,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/pc3.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/pc3.jpg" alt="">
                 </div>
 
 
@@ -182,14 +182,14 @@
                         <b>Preço/Minuto: 20,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
 
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/pc6.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/pc6.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Maquina 05: </b></a>
@@ -204,14 +204,14 @@
                         <b>Preço/Minuto: 10,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
 
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/pc/pc5.jpg" alt="">
+                    <img src="../../ILUSTRACOES/pc/pc5.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>Maquina 06: </b></a>
@@ -226,7 +226,7 @@
                         <b>Preço/Minuto: 04,00MT</b><br>
                         <b>Reserva: 100,00MT</b>
                     </p>
-                    <a href="/INTERFACES/service/res.html" class="btn">Solicitar</a>
+                    <a href="../../INTERFACES/service/res.php" class="btn">Solicitar</a>
                 </div>
             </div>
 
@@ -252,10 +252,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>
@@ -265,7 +265,7 @@
     <!------------------------------- footer section ends ----------------------------------->
 
 
-    <script src="/JS/comportamento.js"></script>
+    <script src="../../JS/comportamento.js"></script>
 </body>
 
 </html>

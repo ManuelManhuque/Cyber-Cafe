@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- link para a folha de estilizacao -->
-    <link rel="stylesheet" href="/CSS/EstilizacaoGeral.css">
+    <link rel="stylesheet" href="../../CSS/EstilizacaoGeral.css">
 
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
     <style>
         body {
             padding-top: 12vh;
@@ -29,16 +29,15 @@
     <header class="header">
         <!-- logotipo vem aqui -->
         <!-- e a ref retornara a pag main -->
-        <a href="/INTERFACES/index.html" class="logo">
-            <img src="/ILUSTRACOES/logo.png">
+        <a href="../../INTERFACES/index.html" class="logo">
+            <img src="../../ILUSTRACOES/logo.png">
         </a>
 
         <nav class="navbar">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Informações_Gerais.html">Informações Gerais</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </nav>
 
         <div class="icons">
@@ -55,7 +54,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -65,7 +64,7 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 02</h3>
             <div class="price">500MT</div>
@@ -75,14 +74,14 @@
     <div class="cart-item">
         <span class="fas fa-times"></span>
         <!-- alguma imagem deve entrar aqui fica no canto superior direito da main-->
-        <img src="/ILUSTRACOES/Americano.jpg" alt="">
+        <img src="../../ILUSTRACOES/Americano.jpg" alt="">
         <div class="content">
             <h3>Item 03</h3>
             <div class="price">500MT</div>
         </div>
     </div>
 
-    <a href="/INTERFACES/service/cafeteria.html" class="btn">Veja agora</a>
+    <a href="../../INTERFACES/service/cafeteria.php" class="btn">Veja agora</a>
 </div>
 
     </header>
@@ -99,7 +98,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/meeting-room-828547_1920.jpg" alt="">
+                    <img src="../../ILUSTRACOES/meeting-room-828547_1920.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b>sala conferências com datashow: </b></a>
@@ -113,13 +112,13 @@
                         <b>Preço/ Hora: 1.500,00MT <br>
                             Reserva: 25% </b>
                     </p>
-                    <a href="/INTERFACES/service/resSalao.html" class="btn">Reservar</a>
+                    <a href="../../INTERFACES/service/resSalao.php" class="btn">Reservar</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="/ILUSTRACOES/Sem-Título-1.png" alt="">
+                    <img src="../../ILUSTRACOES/Sem-Título-1.png" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title"><b> sala de laboratório com uma
@@ -133,7 +132,7 @@
                         <b>Preço/ Hora: 3.000,00MT <br>
                             Reserva: 25% </b>
                     </p>
-                    <a href="/INTERFACES/service/resSalao.html" class="btn">Reservar</a>
+                    <a href="../../INTERFACES/service/resSalao.php" class="btn">Reservar</a>
                 </div>
             </div>
 
@@ -162,10 +161,10 @@
         </div>
 
         <div class="links">
-            <a href="/INTERFACES/Serviços.html">Serviços</a>
-            <a href="/INTERFACES/login.html">Login</a>
-            <a href="/INTERFACES/Contactos.html">Contactos</a>
-            <a href="/INTERFACES/sobre_nós.html">Sobre Nós</a>
+            <a href="../../INTERFACES/Serviços.php">Serviços</a>
+            <a href="../../INTERFACES/login.php">Login</a>
+            <a href="../../INTERFACES/Contactos.php">Contactos</a>
+            <a href="../../INTERFACES/sobre_nós.php">Sobre Nós</a>
         </div>
 
         <div class="credit">created by <span>Cyber Solutions</span> | all rights reserved &reg;</div>
@@ -175,7 +174,7 @@
     <!------------------------------- footer section ends ----------------------------------->
 
 
-    <script src="/JS/comportamento.js"></script>
+    <script src="../../JS/comportamento.js"></script>
 </body>
 
 </html>

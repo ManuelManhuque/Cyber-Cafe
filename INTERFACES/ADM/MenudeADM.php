@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/ILUSTRACOES/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ILUSTRACOES/logo.png" type="image/x-icon">
     <title>Cyber Cafe: Lion's Gate</title>
     <!-- ======= Styles ====== -->
-    <link rel="stylesheet" href="/CSS/menuDeADM.css">
+    <link rel="stylesheet" href="../../CSS/menuDeADM.css">
     <style>
         body{
             background-color: #13131a;
@@ -40,7 +40,7 @@
                 </li>
 
                 <li>
-                    <a href="/INTERFACES/ADM/USUARIOS.html">
+                    <a href="../../INTERFACES/ADM/USUARIOS.php">
                         <span class="icon">
                             <ion-icon name="people-outline"></ion-icon>
                         </span>
@@ -49,7 +49,7 @@
                 </li>
 
                 <li>
-                    <a href="/INTERFACES/ADM/PROD.html">
+                    <a href="../../INTERFACES/ADM/PROD.php">
                         <span class="icon">
                             <ion-icon name="pencil-outline"></ion-icon>
                         </span>
@@ -96,7 +96,7 @@
                 </div>
 
                 <div class="user">
-                    <img src="/ILUSTRACOES/customer02.jpg" alt="">
+                    <img src="../../ILUSTRACOES/customer02.jpg" alt="">
                 </div>
             </div>
 
@@ -234,7 +234,7 @@
                     <table>
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/boy-1846704_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/boy-1846704_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>David <br> <span>Maputo</span></h4>
@@ -243,7 +243,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/boys-1119222_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/boys-1119222_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Amit <br> <span>Nampula</span></h4>
@@ -252,7 +252,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/jovem.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/jovem.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Josia <br> <span>Quelimane</span></h4>
@@ -261,7 +261,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/woman-1919143_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/woman-1919143_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Tunisha <br> <span>Gaza</span></h4>
@@ -270,7 +270,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/rabbit-373691_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/rabbit-373691_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Patrick <br> <span>Sofala</span></h4>
@@ -279,7 +279,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/cat-551554_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/cat-551554_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Eliane <br> <span>Sofala</span></h4>
@@ -288,7 +288,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/brazil-1368806_640.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/brazil-1368806_640.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Eloide <br> <span>Chokwe</span></h4>
@@ -297,7 +297,7 @@
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="/ILUSTRACOES/portrait-3204843_1920.jpg" alt=""></div>
+                                <div class="imgBx"><img src="../../ILUSTRACOES/portrait-3204843_1920.jpg" alt=""></div>
                             </td>
                             <td>
                                 <h4>Neo <br> <span>Catandica</span></h4>
@@ -310,7 +310,7 @@
     </div>
 
     <!-- =========== Scripts =========  -->
-    <script src="/JS/menudeadm.js"></script>
+    <script src="../JS/menudeadm.js"></script>
 
     <!-- ====== ionicons ======= -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
