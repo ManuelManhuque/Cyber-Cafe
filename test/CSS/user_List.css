@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    width: 95%;
+    height: 1rem;
+    margin-right: 2rem;
+    border-collapse: collapse;
+      
+}
+
+
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    color: #fff;
+    font-weight: bold;
+    background-color:  #075a5ac2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+.actions {
+    gap: 1rem;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.update-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+
+.delete-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+.delete-button:hover {
+    background-color: #CC0000;
+}
